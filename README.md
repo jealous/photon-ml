@@ -283,6 +283,7 @@ spark-submit \
   "./build/photon-all_2.10/libs/photon-all_2.10-1.0.0.jar" \
   --training-data-directory "path/to/training/data" \
   --validating-data-directory "path/to/validating/data" \
+  --format "TRAINING_EXAMPLE" \
   --output-directory "path/to/output/dir" \
   --task "LOGISTIC_REGRESSION" \
   --num-iterations 50 \
